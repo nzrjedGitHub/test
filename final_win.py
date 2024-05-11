@@ -87,6 +87,7 @@ class FinalWin(QWidget):
                return txt_res5
     ''' створює графічні елементи '''
     def initUI(self):  
+        ###
         self.work_text = QLabel(txt_workheart + self.results())
         self.index_text = QLabel(txt_index + str(self.index))
  

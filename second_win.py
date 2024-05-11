@@ -153,6 +153,7 @@ class TestWin(QWidget):
             self.timer.stop()
 
     def timer3Event(self):
+        ####
         global time
         time = time.addSecs(-1)
         self.text_timer.setText(time.toString("hh:mm:ss"))
